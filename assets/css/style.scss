@@ -2,6 +2,7 @@
 ---
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 $fontsize:		24px;
 $smallfontsize:	20px;
@@ -9,8 +10,13 @@ $headersize:	105px;
 
 $fontcolor:		#010101;
 $bouncecolor:	#f79421;
-$evencolor:		#f7d5b5;
-$oddcolor:		white;
+$evencolor:		white;
+$oddcolor:		#f3f3f3;
+/*$evencolortest: #f7d5b5;
+$oddcolortest:  white;*/
+$topbottomcolor:#354644;
+//#455a64;
+$topbottomfontcolor: white;
 
 $width-mobile:	767px;
 $width-narrow:	1023px;
@@ -26,10 +32,11 @@ html {
 body {
 	color: $fontcolor;
 	background: white;
-	font-family: Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: 'Ubuntu';
 	font-size: $fontsize;
 	line-height: 1.625;
 	margin: 0;
+	color: $fontcolor;
 
 	@media (max-width: $width-mobile) {
 		font-size: $smallfontsize;
@@ -40,19 +47,20 @@ body {
 footer
 {
 	display: block;
-	font-family: 'Ubuntu', sans-serif;
-	border-top: 1px solid #eee;
+	font-family: 'Ubuntu';
+	//border-top: 1px solid #eee;
 	font-size: $smallfontsize;
-	background-color: $evencolor;
+	background-color: $topbottomcolor;
 	text-align: center;
 	padding: 12px 18px;
+	color: $topbottomfontcolor;
 
 	@media (max-width: $width-narrow) { 
 		padding: 12px 9px;
 	}
 	
 	a {
-		color: $fontcolor;
+//		color: $fontcolor;
 		border: none;
 		
 		&:hover {
@@ -61,17 +69,26 @@ footer
 	}	
 }
 
-header {
+/*header::before {
+	background-image: url(../../assets/img/top-background.jpg);
+	opacity: 0.33;
+	filter: blur(4px);
+}*/
+
+header{
 	display: block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu';
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 999;
 	padding: 0 34px;
-	background: #fff;
-	border-bottom: 1px solid #eee;
+	background-color: $topbottomcolor;
+	//background-image: url(../../assets/img/top-background.jpg);
+	border-bottom: 1px solid #fff;
+	color: $topbottomfontcolor;
+
 
 	@media (max-width: $width-narrow) { 
 		padding: 0 15px ;
@@ -125,8 +142,8 @@ nav {
 
 		@media (max-width: $width-mobile) { 
 			overflow: auto;
-			border-top: 1px solid #eee;
-			background: #fff;
+			//border-top: 1px solid #eee;
+			background: $topbottomcolor;
 		}
 
 		li {
@@ -149,12 +166,12 @@ nav {
 				border-top-color: $bouncecolor;
 				
 				a {
-					color: $bouncecolor;
+					color: $topbottomfontcolor;
 					text-decoration-line: underline;
 
 					@media (max-width: $width-mobile) { 
-						background: #f79421;
-						color: #fff;
+						background: $topbottomcolor;
+						color: $topbottomfontcolor;
 					}				
 				}
 			}
@@ -173,7 +190,7 @@ nav {
 		}
 
 		a {
-			color: $fontcolor;
+			color: $topbottomfontcolor;
 			border: none;
 			text-decoration-line: none;
 			
@@ -187,7 +204,7 @@ nav {
 				position: relative;
 				padding-right: 14px;
 				font-weight: 600;
-				color: #ff5f5f;
+				color: $bouncecolor;
 				@media (max-width: $width-mobile) { 
 					color: #3c5063;
 				}
@@ -243,10 +260,12 @@ section {
 
 	.evenrow {
 		background-color:  $evencolor;
+		color: $fontcolor;
 	}
 
 	.oddrow {
-		background-color:  $oddcolor;
+		background-color: $oddcolor;
+		color: $fontcolor;
 	}
 }
 
@@ -414,5 +433,37 @@ div.eventsoddeven {
 /* ------------------------------- */
 
 .servicepadding{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 50px;
 	padding-top: 90px;
+
+	.title{
+		color: $bouncecolor;
+	}
+	.right{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: start;
+		margin-left: auto;
+		max-width: 720px;
+	}
+	.left{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: start;
+		max-width: 720px;
+	}
+	align-items: flex-end;
+
+}
+
+/*-----------------------------------*/
+
+.evenflex{
+	opacity: 0.5
 }
