@@ -11,12 +11,12 @@ $headersize:	105px;
 $fontcolor:		#010101;
 $bouncecolor:	#f79421;
 $evencolor:		white;
-$oddcolor:		#f3f3f3;
-/*$evencolortest: #f7d5b5;
-$oddcolortest:  white;*/
-$topbottomcolor:#354644;
-//#455a64;
-$topbottomfontcolor: white;
+$oddcolor:		navajowhite;
+// $headercolor:	#354644;
+// $headerfontcolor: white;
+$headercolor:	floralwhite;
+$headerfontcolor: #010101;
+
 
 $width-mobile:	767px;
 $width-narrow:	1023px;
@@ -25,18 +25,17 @@ $width-wide:	1299px;
 
 html {
 	text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%; 
-	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
 body {
 	color: $fontcolor;
 	background: white;
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', 'Nunito Sans', Calibri, Verdana, Segoe, Arial, sans-serif;
 	font-size: $fontsize;
 	line-height: 1.625;
 	margin: 0;
-	color: $fontcolor;
 
 	@media (max-width: $width-mobile) {
 		font-size: $smallfontsize;
@@ -47,50 +46,40 @@ body {
 footer
 {
 	display: block;
-	font-family: 'Ubuntu';
-	//border-top: 1px solid #eee;
 	font-size: $smallfontsize;
-	background-color: $topbottomcolor;
+	background-color: $headercolor;
+	color: $headerfontcolor;
 	text-align: center;
 	padding: 12px 18px;
-	color: $topbottomfontcolor;
+	border-top: 1px solid $bouncecolor;
 
-	@media (max-width: $width-narrow) { 
+	@media (max-width: $width-narrow) {
 		padding: 12px 9px;
 	}
-	
+
 	a {
-//		color: $fontcolor;
+		color: $headerfontcolor;
 		border: none;
-		
+
 		&:hover {
 			color: $bouncecolor;
 		}
-	}	
+	}
 }
-
-/*header::before {
-	background-image: url(../../assets/img/top-background.jpg);
-	opacity: 0.33;
-	filter: blur(4px);
-}*/
 
 header{
 	display: block;
-	font-family: 'Ubuntu';
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 999;
 	padding: 0 34px;
-	background-color: $topbottomcolor;
-	//background-image: url(../../assets/img/top-background.jpg);
-	border-bottom: 1px solid #fff;
-	color: $topbottomfontcolor;
+	background-color: $headercolor;
+	color: $headerfontcolor;
+	border-bottom: 1px solid $bouncecolor;
 
-
-	@media (max-width: $width-narrow) { 
+	@media (max-width: $width-narrow) {
 		padding: 0 15px ;
 	}
 
@@ -104,8 +93,9 @@ header{
 }
 
 h1 {
-	font-size: 36px; 
+	font-size: 36px;
 	font-weight: 900;
+	color: $bouncecolor;
 
 	@media (max-width: $width-mobile) {
 		font-size: 28px;
@@ -113,7 +103,7 @@ h1 {
 	}
 }
 
-/* ------------------------------- */ 
+/* ------------------------------- */
 nav {
 	vertical-align: top;
 	display: inline-block;
@@ -122,7 +112,7 @@ nav {
 	@media (max-width: $width-wide) {
 		padding: 0;
 	}
-	@media (max-width: $width-mobile) { 
+	@media (max-width: $width-mobile) {
 		display: none;
 		position: fixed;
 		top: 0;
@@ -140,10 +130,10 @@ nav {
 		font-size: 20px;
 		line-height: 24px;
 
-		@media (max-width: $width-mobile) { 
+		@media (max-width: $width-mobile) {
 			overflow: auto;
 			//border-top: 1px solid #eee;
-			background: $topbottomcolor;
+			background: $headercolor;
 		}
 
 		li {
@@ -151,28 +141,28 @@ nav {
 			vertical-align: top;
 			padding: 28px 5px 0;
 			border-top: 4px solid transparent;
-			
+
 			@media (max-width: $width-wide) {
 				padding: 28px 12px 0;
 			}
-			@media (max-width: $width-mobile) { 
+			@media (max-width: $width-mobile) {
 				display: block;
 				padding: 0;
 				margin: 0 !important;
 				border: none;
-			}			
+			}
 
-			&:hover { 
+			&:hover {
 				border-top-color: $bouncecolor;
-				
+
 				a {
-					color: $topbottomfontcolor;
+					color: $bouncecolor;
 					text-decoration-line: underline;
 
-					@media (max-width: $width-mobile) { 
-						background: $topbottomcolor;
-						color: $topbottomfontcolor;
-					}				
+					@media (max-width: $width-mobile) {
+						background: $bouncecolor;
+						color: white;
+					}
 				}
 			}
 		}
@@ -180,21 +170,21 @@ nav {
 		li + li {
 			margin-left: 33px;
 
-			@media (max-width: $width-narrow) { 
+			@media (max-width: $width-narrow) {
 				margin-left: 10px;
 			}
 
-			@media (max-width: $width-mobile) { 
+			@media (max-width: $width-mobile) {
 				border-top: 1px solid #eee !important;
 			}
 		}
 
 		a {
-			color: $topbottomfontcolor;
+			color: $headerfontcolor;
 			border: none;
 			text-decoration-line: none;
-			
-			@media (max-width: $width-mobile) { 
+
+			@media (max-width: $width-mobile) {
 				display: block;
 				position: relative;
 				padding: 18px 45px 18px 33px;
@@ -204,31 +194,31 @@ nav {
 				position: relative;
 				padding-right: 14px;
 				font-weight: 600;
-				color: $bouncecolor;
-				@media (max-width: $width-mobile) { 
+				color: #ff5f5f;
+				@media (max-width: $width-mobile) {
 					color: #3c5063;
 				}
-				
+
 				&:after {
 					-webkit-transition: right .2s linear 0s;
 					transition: right .2s linear 0s;
-					
+
 					position: absolute;
 					top: 50%;
 					right: -6px;
 					z-index: 2;
 					margin-top: -12px;
 					content: "►";
-					
-					@media (max-width: $width-mobile) { 
+
+					@media (max-width: $width-mobile) {
 						right: 6px;
 					}
 				}
 
 				&:hover:after {
 					right: -12px !important;
-					
-					@media (max-width: $width-mobile) { 
+
+					@media (max-width: $width-mobile) {
 						position: absolute;
 						right: 32px !important;
 						margin-top: -10px;
@@ -236,17 +226,17 @@ nav {
 						font-weight: bolder;
 						content: ">>";
 					}
-				}				
+				}
 			}
 		}
 	}
 }
 
-/* ------------------------------- */ 
+/* ------------------------------- */
 section {
-	display: block;	
-    min-height: 130px; 
-	text-align: center;	
+	display: block;
+    min-height: 130px;
+	text-align: center;
 
 	div.section {
 		max-width: 1000px;
@@ -260,18 +250,16 @@ section {
 
 	.evenrow {
 		background-color:  $evencolor;
-		color: $fontcolor;
 	}
 
 	.oddrow {
 		background-color: $oddcolor;
-		color: $fontcolor;
 	}
 }
 
-/* ------------------------------- */ 
+/* ------------------------------- */
 .anchor {
-	position: relative; 
+	position: relative;
 	top: -$headersize;
 
 	&:before {
@@ -296,7 +284,7 @@ img.profile {
 	}
 }
 
-/* ------------------------------- */ 
+/* ------------------------------- */
 .nav-opener {
 	display: none;
 	float: right;
@@ -311,10 +299,10 @@ img.profile {
 	overflow: hidden;
 	z-index: 100;
 
-	@media (max-width: $width-mobile) { 
+	@media (max-width: $width-mobile) {
 		display: block;
 	}
-	
+
 	&:before,
 	&:after,
 	span {
@@ -329,7 +317,7 @@ img.profile {
 		transition: all .2s linear;
 		content: "";
 	}
-	
+
 	span {
 		top: 23px;
 	}
@@ -339,7 +327,7 @@ img.profile {
 	&:after {
 		top: 30px;
 	}
-	
+
 	&:hover {
 		background: $bouncecolor;
 
@@ -358,13 +346,13 @@ header.nav-active {
 	}
 
 	.nav-opener {
-		&:after, 
+		&:after,
 		&:before {
 			top: 23px;
 			left: 10px;
 			right: 10px;
 		}
-		
+
 		&:before {
 			-webkit-transform: rotate(45deg);
 			transform: rotate(45deg);
@@ -373,13 +361,13 @@ header.nav-active {
 			-webkit-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 		}
-		
+
 		span {
 			display: none;
 		}
 	}
 }
-/* ------------------------------- */ 
+/* ------------------------------- */
 
 div.eventsoddeven {
 	display: flex;
@@ -397,7 +385,7 @@ div.eventsoddeven {
 			align-items: center;
 		}
 		align-items: flex-start;
-		
+
 	}
 	&:nth-child(odd) {
 		background-color: $evencolor;
@@ -411,7 +399,7 @@ div.eventsoddeven {
 			width: 50%;
 		}
 		align-items: flex-end;
-		
+
 	}
 }
 //.event-wrapper{
