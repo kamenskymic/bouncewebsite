@@ -43,12 +43,19 @@ body {
 	}
 }
 
-footer
+@mixin headerfooter
 {
 	display: block;
-	font-size: $smallfontsize;
 	background-color: $headercolor;
 	color: $headerfontcolor;
+
+}
+
+footer
+{
+	@include headerfooter();
+
+	font-size: $smallfontsize;
 	text-align: center;
 	padding: 12px 18px;
 	border-top: 1px solid $bouncecolor;
@@ -68,15 +75,14 @@ footer
 }
 
 header{
-	display: block;
+	@include headerfooter();
+
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 999;
 	padding: 0 34px;
-	background-color: $headercolor;
-	color: $headerfontcolor;
 	border-bottom: 1px solid $bouncecolor;
 
 	@media (max-width: $width-narrow) {
@@ -245,6 +251,10 @@ section {
 
 		ul {
 			list-style-position: inside;
+		}
+
+		a {
+			color: $bouncecolor;
 		}
 	}
 
@@ -446,7 +456,7 @@ div.eventsoddeven {
 		text-align: start;
 		max-width: 720px;
 	}
-	align-items: flex-end;
+	//align-items: flex-end;
 
 }
 
