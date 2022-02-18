@@ -1,6 +1,4 @@
-- title: Intro
-  url  : /
-- title: How we do it
+- title: Why we do it
   url  : '#approach'
 - title: What we can do for you
   url  : '/services'
@@ -8,7 +6,7 @@
   url  : '#about'
 - title: Where we were
   url  : '/events'
-- title: Get in touch
+- title: How to reach us
   url  : '#contact'
   link : true
 
