@@ -242,11 +242,13 @@ nav {
 section {
 	display: block;
     min-height: 130px;
-	text-align: center;
+	text-align: justify;
+	text-align-last: center;
+	padding: 0 20px;
 
 	div.section {
-		max-width: 1000px;
-		padding: 65px 0 65px;
+		max-width: 800px;
+		padding: 65px 0;
 		margin: 0 auto;
 
 		ul {
