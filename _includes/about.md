@@ -26,10 +26,20 @@ Maya is the COO of Bounce Security.
 
 [![LinkedIn](/assets/img/icon-linkedin.png)](https://www.linkedin.com/in/adi-belinkov-4b229372){: .social }
 
-Adi is an experienced security manager, used to leading teams to protect some of the most sensitive systems around. While her background was originally as a software developer and manager, she was most recently Vice President of Cybersecurity at JPMorgan Chase & Co., one of the largest banks in the world. Adi is now serving as CTO of Bounce Security, enthusiastically pushing our quality and focus on user needs, as well as engaging in additional advanced technologies to better serve our consulting clients. 
+Adi is an experienced security manager, used to leading teams to protect some of the most sensitive systems around. While her background was originally as a software developer and manager, she was most recently Vice President of Cybersecurity at JPMorgan Chase & Co., one of the largest banks in the world. Adi is now working at Bounce Security, enthusiastically pushing our quality and focus on user needs, as well as engaging in additional advanced technologies to better serve our consulting clients. 
 Ms. Belinkov has well over a decade of experience in management roles, with security, operations, and development teams. She works closely with developers, QA engineers, Devops, and Product managers to deeply embed security into their daily workflows, often delivering internal training sessions. Adi has a pragmatic understanding of organizational constraints and requirements, and leverages these to ensure we deliver the optimal results to stakeholders. 
 Adi has served in the famous 8200 unit in the IDF, has a degree in Software Engineering, and is working on her Executive MBA. She also volunteers for SheCodes, and previously ran one of the chapters. 
-  
+
+![Josh profile](/assets/img/Josh.jpg){: .profile }
+
+[![LinkedIn](/assets/img/icon-linkedin.png)](https://www.linkedin.com/in/joshcgrossman/){: .social }
+[![Twitter](/assets/img/icon-twitter.png)](https://twitter.com/joshcgrossman){: .social }
+
+Josh is the CTO of Bounce Security. He has worked as a consultant in IT/Application Security and Risk for 15 years now as well as a Software Developer. In that time he has seen the good, the bad and the stuff which is sadly/luckily still covered by an NDA.
+
+He previously spent time acting as a consultant and team leader for various security consultancies including AppSec Labs, Comsec Global and KPMG Somekh Chaikin where his speciality has been helping organisations improve and get better value from their Secure Development processes and providing specialist Application Security advice. He also has experience with application penetration testing, cloud security and evaluation and implementation of software security tools.
+
+In his spare time he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board.
 
 ![Emette D profile](/assets/img/EmetteD.jpg){: .profile }
 
