@@ -1,3 +1,22 @@
+- event: OWASP Luxembourg
+  year: 2022
+  date: March 8th
+  title: What's new in the ASVS 4.0?
+  img: assets\img\owasp_lux20220308.png
+  url: https://www.meetup.com/owasp-luxembourg-group/events/284178991/
+  by: Josh Grossman
+  info:
+
+- event: DevSecCon Lightning
+  year: 2020
+  date: November 18th
+  title: Count up from zero day - when a critical vulnerability takes you by surprise
+  youtube: https://youtu.be/4I6QJthjxes
+  embed: https://www.youtube.com/embed/4I6QJthjxes
+  url: https://www.devseccon.com/events/lightning
+  by: Josh Grossman
+  info:
+  
 - event: Beyond The Perimeter Podcast
   year: 2020
   date: September 17th
@@ -45,7 +64,27 @@
   url: https://www.infosec-city.com/sin19-con
   by: Avi Douglen
   info:
-   
+  
+- event: MyDevSecOps Livestream
+  year: 2020
+  date: January 30th
+  title: What's new in the ASVS 4.0?
+  youtube: https://youtu.be/O5MHzJaLGEQ
+  embed: https://www.youtube.com/embed/O5MHzJaLGEQ
+  url: https://www.devseccon.com/videos/whats-new-and-exciting-about-the-asvs-4-0-owasp/
+  by: Josh Grossman
+  info:
+  
+- event: OWASP Helsinki
+  year: 2019
+  date: September 3rd
+  title: What's new in the ASVS 4.0?
+  youtube: https://vimeo.com/365718271
+  embed: https://player.vimeo.com/video/365718271?h=3661963f3c&title=0&byline=0&portrait=0
+  url: https://www.meetup.com/OWASP-Helsinki-Chapter/events/264058334/
+  by: Josh Grossman
+  info:
+  
 - event: OWASP
   year: 2019
   date: July 5th
@@ -55,7 +94,17 @@
   url: https://owasp.org/
   by: Adi Belinkov and Iris Levari
   info:
-   
+  
+- event: MyDevSecOps Livestream
+  year: 2019
+  date: March 14th
+  title: Panel: The State of Open-Source Security
+  youtube: https://youtu.be/rGpmVVTrCLc
+  embed: https://www.youtube.com/embed/rGpmVVTrCLc
+  url: https://www.devseccon.com/videos/state-of-open-source-security-panel/
+  by: Josh Grossman
+  info:
+  
 - event: DevOpsDays Tel Aviv
   year: 2019
   date: January 3rd
@@ -75,10 +124,20 @@
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen
   info:
-   
-- event: OWASP
+      
+- event: OWASP AppSec USA 2018
   year: 2018
-  date: November 14th
+  date: October 11th
+  title: How to get the best AppSec test of your life
+  youtube: https://youtu.be/Lw1M6uWsTZA
+  embed: https://www.youtube.com/embed/Lw1M6uWsTZA
+  url: https://owasp.org/
+  by: Josh Grossman
+  info:
+  
+- event: OWASP AppSec USA 2018
+  year: 2018
+  date: October 11th
   title: Value Driven Threat Modeling
   youtube: https://youtu.be/3Fl_7FrM_gI
   embed: https://www.youtube.com/embed/3Fl_7FrM_gI
@@ -95,10 +154,20 @@
   url: https://pyvideo.org/pycon-israel-2018/value-driven-threat-modeling-security-by-design.html
   by: Avi Douglen
   info:
-   
+  
+  - event: OWASP Israel
+  year: 2017
+  date: October 28th
+  title: How to get the best AppSec test of your life
+  youtube: https://youtu.be/yRFIwJnJe8I
+  embed: https://www.youtube.com/embed/yRFIwJnJe8I
+  url: https://sched.co/CSDQ
+  by: Josh Grossman
+  info: 
+  
 - event: OWASP Israel
   year: 2017
-  date: December 6th
+  date: October 28th
   title: Conference Opening Address
   youtube: https://youtu.be/Moqawdvrnig
   embed: https://www.youtube.com/embed/Moqawdvrnig
