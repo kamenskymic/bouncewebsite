@@ -98,7 +98,7 @@
 - event: MyDevSecOps Livestream
   year: 2019
   date: March 14th
-  title: Panel: The State of Open-Source Security
+  title: Panel - The State of Open-Source Security
   youtube: https://youtu.be/rGpmVVTrCLc
   embed: https://www.youtube.com/embed/rGpmVVTrCLc
   url: https://www.devseccon.com/videos/state-of-open-source-security-panel/
@@ -155,7 +155,7 @@
   by: Avi Douglen
   info:
   
-  - event: OWASP Israel
+- event: OWASP Israel
   year: 2017
   date: October 28th
   title: How to get the best AppSec test of your life
