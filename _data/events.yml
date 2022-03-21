@@ -1,3 +1,13 @@
+- event: Open Security Summit
+  year: 2022
+  date: March 15th
+  title: Tune your Toolbox for Velocity and Value (SCA)
+  youtube: https://youtu.be/2SxHfhvhey8
+  embed: https://www.youtube.com/embed/2SxHfhvhey8
+  url: https://open-security-summit.org/sessions/2022/mini-summits/mar/devsecops/tune-up-your-toolbox-for-better-appsec-value-sca-edition/
+  by: Josh Grossman
+  info:
+
 - event: OWASP Luxembourg
   year: 2022
   date: March 8th
