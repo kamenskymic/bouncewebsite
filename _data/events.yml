@@ -1,3 +1,32 @@
+- event: Application Security podcast
+  year: 2022
+  date: April 20th
+  title: Building a High-Value AppSec Scanning Program
+  youtube: https://youtu.be/LAcH1kFP4-M
+  embed: https://www.youtube.com/embed/LAcH1kFP4-M
+  url: https://www.securityjourney.com/podcast-episode/josh-grossman-building-a-high-value-appsec-scanning-program
+  by: Josh Grossman
+  info:
+
+- event: DevSec For Scale Podcast
+  year: 2022
+  date: April 12th
+  title: Proactively Building Secure Software
+  youtube: https://youtu.be/ctgH7umEtxg
+  embed: https://www.youtube.com/embed/ctgH7umEtxg
+  url: https://www.youtube.com/watch?v=ctgH7umEtxg
+  by: Josh Grossman
+  info:
+
+- event: OWASP Morocco
+  year: 2022
+  date: April 12th
+  title: Introduction to the ASVS
+  img: assets\img\owaspmorocco.png
+  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
+  by: Josh Grossman
+  info:
+
 - event: Open Security Summit
   year: 2022
   date: March 15th
