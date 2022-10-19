@@ -284,10 +284,10 @@ section {
 }
 
 img.profile {
-	width: 100%;
-	max-width: 400px;
+	//width: 100%;
+	max-width: 100%;
 	height: auto;
-	object-fit: cover;
+	object-fit: contain;
 	
 	//width: 420px;
 	//height: 320px;
