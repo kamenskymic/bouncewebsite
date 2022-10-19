@@ -1,0 +1,13 @@
+/*
+  Content-Security-Policy: default-src 'self' https://bouncesecurity.com https://*.bouncesecurity.com
+  #Content-Security-Policy: report-uri http://reportcollector.bouncesecurity.com/collector.cgi
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=()
+  Permissions-Policy: microphone=()
+  Permissions-Policy: camera=()
+  Permissions-Policy: execution-while-not-rendered=()
+  Permissions-Policy: payment=()
+  Permissions-Policy: battery=()
+
