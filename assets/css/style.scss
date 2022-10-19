@@ -284,14 +284,11 @@ section {
 }
 
 img.profile {
-	//width: 100%;
-	max-width: 100%;
+	width: 100%;
+	max-width: 400px;
 	height: auto;
+	max-height: 320px;
 	object-fit: contain;
-	
-	//width: 420px;
-	//height: 320px;
-	//object-fit: cover;
 }
 
 .social {
