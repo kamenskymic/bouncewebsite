@@ -1,6 +1,6 @@
 ---
 ---
-
+{
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
@@ -285,9 +285,14 @@ section {
 }
 
 img.profile {
-	width: 420px;
-	height: 320px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
 	object-fit: cover;
+	
+	//width: 420px;
+	//height: 320px;
+	//object-fit: cover;
 }
 
 .social {
@@ -468,4 +473,5 @@ div.eventsoddeven {
 
 .evenflex{
 	opacity: 0.5
+}
 }
