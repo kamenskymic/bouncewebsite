@@ -41,4 +41,9 @@ Emette is Bounce Security's Junior Security Analyst.
 She is a Student at the Open University studying for a BSc in Computer Science, and studies Fashion at Ha'Midrasha Le'Ofna college, wishing to combine the two worlds in the future.  
 Emette also has a P.E. Degree in Electronic Engineering, Majoring in Computers.  
 
+![Michal K profile](/assets/img/MichalK.jpg){: .profile }
+
+Michal is a Junior Security Analyst at Bounce Security.  
+She is a Student at the Open University studying for a BSc in Computer Science and Mathematics.
+
 </div>

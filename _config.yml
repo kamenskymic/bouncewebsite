@@ -13,3 +13,4 @@ kramdown:
   parse_span_html  : true
 
 include: ["_redirects"]
+include: ["_headers"]
