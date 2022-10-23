@@ -1,6 +1,6 @@
 
 
-<div class="right">
+<div class="left">
 <div class="title">
 ## Threat Modeling Workshop
 </div>
