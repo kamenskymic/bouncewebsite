@@ -285,9 +285,11 @@ section {
 }
 
 img.profile {
-	width: 420px;
-	height: 320px;
-	object-fit: cover;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	max-height: 320px;
+	object-fit: contain;
 }
 
 .social {

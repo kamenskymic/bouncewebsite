@@ -1,7 +1,7 @@
 
 
 
-<div class="left">
+<div class="right">
 <div class="title">
 ## Software Security Consulting
 </div>

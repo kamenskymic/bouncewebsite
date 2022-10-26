@@ -11,12 +11,21 @@
 {% include SecurityRoadmapping.md %}
 </div>
 
-<div id="tmworkshop" class="evenrow">
+<div id="consulting" class="evenrow">
+{% include SoftwareSecurityConsulting.md %}
+</div>
+
+<div id="tmworkshop" class="oddrow">
 {% include ThreatModelingWorkshop.md %}
 </div>
 
-<div id="consulting" class="oddrow">
-{% include SoftwareSecurityConsulting.md %}
+<div id="asvstraining" class="evenrow">
+{% include asvscourse.md %}
 </div>
+
+<div id="toolstraining" class="oddrow">
+{% include toolscourse.md %}
+</div>
+
 
 </div>
