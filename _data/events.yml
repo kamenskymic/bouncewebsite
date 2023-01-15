@@ -49,6 +49,15 @@
   by: Josh Grossman
   info:
 
+- event: OWASP Morocco
+  year: 2022
+  date: April 12th
+  title: Introduction to the ASVS
+  img: assets\img\owaspmorocco.png
+  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
+  by: Josh Grossman
+  info:
+
 - event: DevSec For Scale Podcast
   year: 2022
   date: April 12th
@@ -56,15 +65,6 @@
   youtube: https://youtu.be/ctgH7umEtxg
   embed: https://www.youtube-nocookie.com/embed/ctgH7umEtxg
   url: https://www.youtube.com/watch?v=ctgH7umEtxg
-  by: Josh Grossman
-  info:
-
-- event: OWASP Morocco
-  year: 2022
-  date: April 12th
-  title: Introduction to the ASVS
-  img: assets\img\owaspmorocco.png
-  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
   by: Josh Grossman
   info:
 

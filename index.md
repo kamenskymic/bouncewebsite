@@ -45,8 +45,7 @@ We offer the following services:
 <a id="contact" class="anchor"></a>
 <div class="section">  
 
-For more information on our value-driven philosophy, or regarding a consulting engagement, please contact us 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=cRoiiPFjO02bvb320DZszIiHwGR-HPVCpua1ZF_PJqtUMkNDQjNHSzExUlc1Tk5PUzRJM1JRMkFWOC4u">
-or at [info@bouncesecurity.com](mailto:info@bouncesecurity.com). 
+For more information on our value-driven philosophy, or regarding a consulting engagement, please  
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=cRoiiPFjO02bvb320DZszIiHwGR-HPVCpua1ZF_PJqtUMkNDQjNHSzExUlc1Tk5PUzRJM1JRMkFWOC4u">contact us</a>
 </div>
 </section>
