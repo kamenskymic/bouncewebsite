@@ -17,24 +17,6 @@
     <script type="application/ld+json">
         {"name":"Bounce Security Consulting","description":"Efficient, Value-Driven Security","@type":"WebSite","url":"/","headline":"Bounce Security Consulting","@context":"http://schema.org"}
     </script>
-	<script>
-	function navToggle() { 		
-		if (header.classList.contains("nav-active")) {
-			header.classList.remove("nav-active");
-		} else {			
-			header.classList.add("nav-active");
-		} 
-	} 
-	
-	window.onload = function() { 
-		Array.prototype.filter.call(
-			document.getElementById('nav').getElementsByTagName('li'), 
-			function (el) {
-				el.onclick = function(){ el.firstElementChild.click() };
-			}
-		);
-	};
-	</script>	
   </head>
 
   <body>
@@ -47,7 +29,7 @@
 		</div>
 		<a href="#" class="nav-opener" onclick="navToggle();"><span>Menu</span></a>
 
-		<nav class="nav">
+		<nav class="nav" id="nav">
 			<ul>
 				{% for menu in site.data.menus %}
 				<li>
@@ -66,6 +48,25 @@
 		What would Value Driven Security do for <i>YOU</i>? - 
 		<a href="mailto:info@bouncesecurity.com">info@bouncesecurity.com</a>
 	</footer>
+
+	<script>
+	function navToggle() { 		
+		if (header.classList.contains("nav-active")) {
+			header.classList.remove("nav-active");
+		} else {			
+			header.classList.add("nav-active");
+		} 
+	} 
+	
+	window.onload = function() { 
+		Array.prototype.filter.call(
+			document.getElementById('nav').getElementsByTagName('li'), 
+			function (el) {
+				el.onclick = function(){ el.firstElementChild.click() };
+			}
+		);
+	};
+	</script>	
 
   </body>
 </html>

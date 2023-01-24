@@ -1,6 +1,6 @@
 
 
-<div class="right">
+<div class="center">
 <div class="title">
 ## Software Security Requirements with the ASVS
 </div>

@@ -10,6 +10,15 @@
 
 <div class="eventsoddeven">
 <div class="event-wrapper">
+    {% if event.youtube %}
+<iframe class="itemvid" width="393.75" height="221.625" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% else %}
+<div class="event-img">
+[![enter img]({{ event.img }})]({{event.url}}){:target="_blank"}
+</div>
+    {% endif %}
+<div class="event-space">
+</div>
 <div class="event-content">
 <div class="event-name">
 <a target="_blank" href="{{event.url}}">{{ event.event }}</a>
@@ -30,11 +39,6 @@
         {% endif %}
     {% endif %}
 </div>
-    {% if event.youtube %}
-<iframe class="itemvid" width="393.75" height="221.625" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        {% else %}
-[![enter img]({{ event.img }})]({{event.url}}){:target="_blank"}
-    {% endif %}
 </div>
 </div>
 
