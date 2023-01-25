@@ -1,3 +1,44 @@
+- event: Keynote at BSidesTLV 2022
+  year: 2022
+  date: June 30th
+  title: The Threats to Our Community
+  youtube: https://youtu.be/CnGt-oJXogA
+  embed: https://www.youtube-nocookie.com/embed/CnGt-oJXogA
+  url: https://www.youtube.com/watch?v=CnGt-oJXogA
+  by: Avi Douglen
+  info:
+
+- event: BSidesTLV 2022
+  year: 2022
+  date: June 30th
+  title: |
+    Analyzing Open Buckets: a Beginner’s Journey Through Misplaced Secrets
+  youtube: https://youtu.be/s-ColeJZ9ZY
+  embed: https://www.youtube-nocookie.com/embed/s-ColeJZ9ZY
+  url: https://www.youtube.com/watch?v=s-ColeJZ9ZY
+  by: Michal Kamensky
+  info:
+
+- event: AppSecEU 2022
+  year: 2022
+  date: June 8th
+  title: OWASP ASVS Project
+  youtube: https://youtu.be/zqj4YuoAlcA
+  embed: https://www.youtube-nocookie.com/embed/zqj4YuoAlcA
+  url: https://www.youtube.com/watch?v=zqj4YuoAlcA
+  by: Josh Grossman
+  info:
+
+#- event: Israel Bar Association
+#  year: 2022
+#  date: May 12th
+#  title: |
+#    A pannel on the cyber challenges of 2022
+#  img:
+#  url: https://www.facebook.com/Mehoz.Merkaz.Law/videos/3221324774780188
+#  by: Avi Douglen
+#  info:
+
 - event: Application Security podcast
   year: 2022
   date: April 20th
@@ -8,6 +49,15 @@
   by: Josh Grossman
   info:
 
+- event: OWASP Morocco
+  year: 2022
+  date: April 12th
+  title: Introduction to the ASVS
+  img: assets\img\owaspmorocco.png
+  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
+  by: Josh Grossman
+  info:
+
 - event: DevSec For Scale Podcast
   year: 2022
   date: April 12th
@@ -15,15 +65,6 @@
   youtube: https://youtu.be/ctgH7umEtxg
   embed: https://www.youtube-nocookie.com/embed/ctgH7umEtxg
   url: https://www.youtube.com/watch?v=ctgH7umEtxg
-  by: Josh Grossman
-  info:
-
-- event: OWASP Morocco
-  year: 2022
-  date: April 12th
-  title: Introduction to the ASVS
-  img: assets\img\owaspmorocco.png
-  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
   by: Josh Grossman
   info:
 
@@ -45,6 +86,16 @@
   url: https://www.meetup.com/owasp-luxembourg-group/events/284178991/
   by: Josh Grossman
   info:
+
+#- event: OWASP OC
+#  year: 2021
+#  date: September 23rd
+#  title: |
+#    Lightweight Threat Modeling: The Value Driven Approach
+#  img:
+#  url: https://www.twitch.tv/videos/1157208663
+#  by: Avi Douglen
+#  info:
 
 - event: DevSecCon Lightning
   year: 2020
@@ -114,6 +165,16 @@
   by: Josh Grossman
   info:
   
+#- event: O'Reilly Software Architecture
+#  year: 2019
+#  date: November 6th
+#  title: |
+#    Secure by design: Value-driven threat modeling
+#  img:
+#  url: https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050728/video328564.html
+#  by: Avi Douglen
+#  info:
+
 - event: OWASP Helsinki
   year: 2019
   date: September 3rd
