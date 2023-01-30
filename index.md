@@ -44,8 +44,6 @@ We offer the following services:
 <section id="section-contact" class="evenrow">
 <a id="contact" class="anchor"></a>
 <div class="section">  
-
-For more information on our value-driven philosophy, or regarding a consulting engagement, please  
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=cRoiiPFjO02bvb320DZszIiHwGR-HPVCpua1ZF_PJqtUMkNDQjNHSzExUlc1Tk5PUzRJM1JRMkFWOC4u">contact us</a>
+For more information on our value-driven philosophy, or regarding a consulting engagement, just <a href="https://forms.office.com/r/UQcj1NyLtB">let us know what you're looking for!</a>
 </div>
 </section>
