@@ -1,14 +1,14 @@
-- event: Keynote at BSidesTLV 2022
+- event: BSides Tel Aviv 2022
   year: 2022
   date: June 30th
-  title: The Threats to Our Community
+  title: KEYNOTE: The Threats to Our Community
   youtube: https://youtu.be/CnGt-oJXogA
   embed: https://www.youtube-nocookie.com/embed/CnGt-oJXogA
   url: https://bsidestlv.com/
   by: Avi Douglen
   info:
 
-- event: BSidesTLV 2022
+- event: BSides Tel Aviv 2022
   year: 2022
   date: June 30th
   title: Analyzing Open Buckets- a Beginner’s Journey Through Misplaced Secrets
@@ -47,7 +47,6 @@
   by: Josh Grossman
   info:
   
-
 - event: OWASP Morocco
   year: 2022
   date: April 12th
@@ -131,12 +130,12 @@
   embed: https://www.youtube-nocookie.com/embed/yjvSI755auM
   url: https://open-security-summit.org/sessions/2020/mini-summits/dec/threat-modeling/threat-modeling-manifesto/
   by: Avi Douglen
-  info: Virtual Summit due to CoViD19.
+  info: Virtual Summit due to COVID19.
  
 - event: SafetyDetectives
   year: 2020
   date: May 25th
-  title: Interview With Avi Douglen – Bounce Security
+  title: Interview With Avi Douglen
   img: assets\img\safety-detectives-may2020.PNG
   url: https://www.safetydetectives.com/blog/interview-avi-douglen-bounce-security/
   by: Avi Douglen
@@ -175,7 +174,7 @@
 - event: O'Reilly Software Architecture Conference 2019
   year: 2019
   date: November 6th
-  title: Secure by design - Value-driven threat modeling
+  title: Secure by Design: Value-Driven Threat Modeling
   img: assets\img\oreily2019.png
   url: https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050728/video328564.html
   by: Avi Douglen
@@ -189,16 +188,6 @@
   embed: https://player.vimeo.com/video/365718271?h=3661963f3c&title=0&byline=0&portrait=0
   url: https://www.meetup.com/OWASP-Helsinki-Chapter/events/264058334/
   by: Josh Grossman
-  info:
-  
-- event: OWASP
-  year: 2019
-  date: July 5th
-  title: Testing Security In, the Right Way
-  youtube: https://youtu.be/sorcL9GC_uo
-  embed: https://www.youtube-nocookie.com/embed/sorcL9GC_uo
-  url: https://owasp.org/
-  by: Adi Belinkov and Iris Levari
   info:
   
 - event: MyDevSecOps Livestream
@@ -221,7 +210,7 @@
   by: Avi Douglen
   info:
 
-- event: OWASP Israel
+- event: OWASP AppSec Israel 2018
   year: 2018
   date: November 29th
   title: Value Driven Threat Modeling
@@ -261,7 +250,7 @@
   by: Avi Douglen
   info:
   
-- event: OWASP Israel
+- event: OWASP AppSec Israel
   year: 2017
   date: October 28th
   title: How to get the best AppSec test of your life
@@ -271,7 +260,7 @@
   by: Josh Grossman
   info: 
   
-- event: OWASP Israel
+- event: OWASP AppSec Israel
   year: 2017
   date: October 28th
   title: Conference Opening Address
@@ -291,7 +280,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP Israel
+- event: OWASP AppSec Israel
   year: 2016
   date: November 4th
   title: Opening Words
@@ -301,7 +290,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP Israel
+- event: OWASP AppSec Israel
   year: 2015
   date: November 27th
   title: Opening Words (Mostly Hebrew)
@@ -311,7 +300,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP Israel
+- event: OWASP AppSec Israel
   year: 2014
   date: October 13th
   title: Passwords, Rehashed All Over Again
