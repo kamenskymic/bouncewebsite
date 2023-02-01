@@ -1,7 +1,6 @@
 - event: BSides Tel Aviv 2022
   year: 2022
   date: June 30th
-  title: KEYNOTE: The Threats to Our Community
   youtube: https://youtu.be/CnGt-oJXogA
   embed: https://www.youtube-nocookie.com/embed/CnGt-oJXogA
   url: https://bsidestlv.com/
@@ -174,7 +173,7 @@
 - event: O'Reilly Software Architecture Conference 2019
   year: 2019
   date: November 6th
-  title: Secure by Design: Value-Driven Threat Modeling
+  title: Secure by Design&#58; Value-Driven Threat Modeling
   img: assets\img\oreily2019.png
   url: https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050728/video328564.html
   by: Avi Douglen
