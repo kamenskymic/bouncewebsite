@@ -1,6 +1,6 @@
 
 
-<div class="left">
+<div class="center">
 <div class="title">
 ## Building a High-Value AppSec Scanning Programme
 </div>

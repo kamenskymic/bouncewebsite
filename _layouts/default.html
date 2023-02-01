@@ -17,6 +17,37 @@
     <script type="application/ld+json">
         {"name":"Bounce Security Consulting","description":"Efficient, Value-Driven Security","@type":"WebSite","url":"/","headline":"Bounce Security Consulting","@context":"http://schema.org"}
     </script>
+  </head>
+
+  <body>
+	<header id="header" class="header">
+
+		<div class="logo">
+			<a href="/">
+				<img src={{ "/assets/img/logo.svg" | relative_url }} alt="Bounce Security" onerror="this.onerror=null; this.src='images/logo.png'" />				
+			</a>
+		</div>
+		<a href="#" class="nav-opener" onclick="navToggle();"><span>Menu</span></a>
+
+		<nav class="nav" id="nav">
+			<ul>
+				{% for menu in site.data.menus %}
+				<li>
+					<a href="{{ menu.url | relative_url }}" {% if menu.link %} class="link"{% endif %}>{{menu.title}}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="content-wrapper">
+		{{ content }}
+	</section>
+
+	<footer id="footer" class="footer">
+		<p>What would Value Driven Security do for <i>YOU</i>? <a href="mailto:info@bouncesecurity.com">info@bouncesecurity.com</a></p>
+	</footer>
+
 	<script>
 	function navToggle() { 		
 		if (header.classList.contains("nav-active")) {
@@ -35,37 +66,6 @@
 		);
 	};
 	</script>	
-  </head>
-
-  <body>
-	<header id="header" class="header">
-
-		<div class="logo">
-			<a href="/">
-				<img src={{ "/assets/img/logo.svg" | relative_url }} alt="Bounce Security" onerror="this.onerror=null; this.src='images/logo.png'" />				
-			</a>
-		</div>
-		<a href="#" class="nav-opener" onclick="navToggle();"><span>Menu</span></a>
-
-		<nav class="nav">
-			<ul>
-				{% for menu in site.data.menus %}
-				<li>
-					<a href="{{ menu.url | relative_url }}" {% if menu.link %} class="link"{% endif %}>{{menu.title}}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</nav>
-	</header>
-	
-	<section id="content-wrapper">
-		{{ content }}
-	</section>
-
-	<footer id="footer" class="footer">
-		What would Value Driven Security do for <i>YOU</i>? - 
-		<a href="mailto:info@bouncesecurity.com">info@bouncesecurity.com</a>
-	</footer>
 
   </body>
 </html>

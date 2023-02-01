@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
@@ -394,41 +395,47 @@ div.eventsoddeven {
 	padding-bottom: 50px;
 	&:nth-child(even) {
 		background-color: $oddcolor;
-		.event-wrapper{
+		.event-wrapper {
 			display: flex;
 			flex-direction: row;
 			width: 50%;
 			align-items: center;
-		}
-		align-items: flex-start;
 
+			.itemvid {
+				flex-shrink: 0;
+			}
+
+			.event-space {
+				width: 20px;
+			}
+		}
+		align-items: center;
 	}
 	&:nth-child(odd) {
 		background-color: $evencolor;
-		//.div, .iframe {
-		//	text-align: center;
-		//	align-items: center;
-		//}
-		.event-wrapper{
+
+		.event-wrapper {
 			display: flex;
 			flex-direction: row;
 			width: 50%;
-		}
-		align-items: flex-end;
 
+			.itemvid {
+				flex-shrink: 0;
+			}
+
+			.event-img {
+				flex-shrink: 0;
+				max-width: 410px;
+				object-fit: contain;
+			}
+
+			.event-space {
+				width: 20px;
+			}
+		}
+		align-items: center;
 	}
 }
-//.event-wrapper{
-//	display: flex;
-//	flex-direction: row;
-//	width: 50%;
-//	&:nth-child(even) {
-//		justify-content: flex-start;
-//	}
-//	&:nth-child(odd) {
-//		justify-content: flex-end;
-//	}
-//}
 
 .tab {
 	padding-right: 10px;
@@ -436,7 +443,7 @@ div.eventsoddeven {
 
 /* ------------------------------- */
 
-.servicepadding{
+.servicepadding {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -444,30 +451,23 @@ div.eventsoddeven {
 	padding-bottom: 50px;
 	padding-top: 90px;
 
-	.title{
+	//every direct child of servicepadding:
+	> * {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.title {
 		color: $bouncecolor;
 	}
-	.right{
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		text-align: start;
-		margin-left: auto;
-		max-width: 720px;
+	.center {
+		max-width: 800px;
 	}
-	.left{
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		text-align: start;
-		max-width: 720px;
-	}
-	//align-items: flex-end;
-
 }
 
 /*-----------------------------------*/
 
-.evenflex{
+.evenflex {
 	opacity: 0.5
 }
