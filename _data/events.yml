@@ -1,4 +1,173 @@
-- event: BSides Tel Aviv 2022
+- event: UPCOMING EVENT! OWASP 2023 Virtual June Training
+  year: 2023
+  date: June 6-7th
+  title: Application Security Awareness and Security Requirements with the OWASP ASVS
+  img: assets\img\June OWASP virtual training.jpg
+  embed: https://www.eventbrite.com/e/owasp-2023-virtual-june-training-tickets-600868583107?utm_campaign=none&utm_medium=event-page&utm_source=owasp-web
+  url: https://www.eventbrite.com/e/owasp-2023-virtual-june-training-tickets-600868583107?utm_campaign=none&utm_medium=event-page&utm_source=owasp-web
+  by: Josh Grossman
+  info:
+
+- event: UPCOMING EVENT! SecAppDev Workshop
+  year: 2023
+  date: June 15th
+  title: Building secure systems with threat modeling
+  img: assets\img\secappdev logo.png
+  embed: https://secappdev.org/2023/sessions/building-secure-systems-with-threat-modeling/
+  url: https://secappdev.org/
+  by: Avi Douglen
+  info:
+
+- event: UPCOMING EVENT! SecAppDev Lectures
+  year: 2023
+  date: June 12,13th
+  title: 1) Building a secure Software Development Lifecycle    2) Analysis of authentication- deciding on "good enough"
+  img: assets\img\secappdev logo.png
+  embed: https://secappdev.org/2023/speakers/avidouglen/
+  url: https://secappdev.org/
+  by: Avi Douglen
+  info:
+
+- event: UPCOMING EVENT! DevTalks Romania
+  year: 2023
+  date: June 22nd
+  title: Building a sustainable security requirements process with the ASVS
+  img: assets\img\DevTalks.png
+  embed: https://www.devtalks.ro/agenda/5-day-2?tags%5B0%5D=16
+  url: https://www.devtalks.ro/
+  by: Josh Grossman
+  info:
+
+- event: UPCOMING EVENT! Troopers
+  year: 2023
+  date: June 26-30th
+  title: Security Heroes versus the Power of Privacy
+  img: assets\img\troopers.jpg
+  embed: https://troopers.de/
+  url: https://troopers.de/troopers23/talks/rwjsfv/
+  by: Avi Douglen
+  info:
+
+- event: UPCOMING EVENT! PyCon 2023
+  year: 2023
+  date: July 4th
+  title: Omniscient AppSec- Custom, continuous security verification of python code
+  img: assets\img\PyCon.png
+  embed: https://2023.pycon.org.il/
+  url: https://cfp.pycon.org.il/conference2023/schedule/
+  by: Michal Kamensky and Josh Grossman
+  info:
+
+- event: UPCOMING EVENT! Training at BlackHat USA
+  year: 2023
+  date: August 7-8th
+  title: Building a High-Value AppSec Scanning Programme (SCA, SAST, DAST and More)
+  img: assets\img\blackHat.png
+  embed: https://www.blackhat.com/us-23/training/schedule/index.html#building--a-high-value-appsec-scanning-programme-sca-sast-dast-and-more-30622
+  url: https://www.blackhat.com/us-23/training/schedule/index.html#building--a-high-value-appsec-scanning-programme-sca-sast-dast-and-more-30622 
+  by: Josh Grossman
+  info:
+
+- event: AppSec Israel
+  year: 2023
+  date: May 17th
+  title: Omniscient AppSec- Custom, continuous security verification
+  img: assets\img\AppSecIL2023_logo.png
+  embed: https://owaspappsecil2023.sched.com/event/1Lqsm/omniscient-appsec-custom-continuous-security-verification
+  url: https://appsecil.org/Register
+  by: Michal Kamensky
+  info:
+
+- event: AppSec Israel
+  year: 2023
+  date: May 16-17th
+  title: AppSec Israel, Tel aviv
+  img: assets\img\AppSecIL2023_logo.png
+  embed: https://appsecil.org/
+  url: https://appsecil.org/
+  by: OWASP
+
+- event: Training at BlackHat Asia
+  year: 2023
+  date: May 9-10th
+  title: Sustainable Secure Design - Building a Continuous Threat Modeling Process
+  img: assets\img\blackHat.png
+  embed: https://www.blackhat.com/asia-23/training/schedule/#sustainable-secure-design---building-a-continuous-threat-modeling-process-virtual-29852
+  url: https://www.blackhat.com/asia-23/training/schedule/#sustainable-secure-design---building-a-continuous-threat-modeling-process-virtual-29852
+  by: Avi Douglen
+  info:
+
+- event: PBC's Linkedin Live event
+  year: 2023
+  date: April 18th
+  title: Journey to AppSec Maturity- Dialogue at RSA
+  img: assets\img\Journey to Appsec Maturity.jpg
+  embed: https://www.linkedin.com/events/journeytoappsecmaturity-dialogu7042220687696023552/
+  url: https://www.linkedin.com/events/journeytoappsecmaturity-dialogu7042220687696023552/
+  by: Avi Douglen
+  info:
+
+- event: Security Weekly
+  year: 2023
+  date: March 13th
+  title: The OWASP ASVS and Sustainable Software Security Practices
+  youtube: https://youtu.be/yWVsnAliI6Q
+  embed: https://www.youtube-nocookie.com/embed/yWVsnAliI6Q
+  url: https://www.scmagazine.com/podcast-segment/the-owasp-asvs-and-sustainable-software-security-practices-josh-grossman-asw-232
+  by: Josh Grossman
+  info:
+
+- event: Global OWASP AppSec Dublin
+  year: 2023
+  date: February 13-14th
+  title: Building a High-Value AppSec Scanning Programme - Training
+  img: assets\img\OWASP.png
+  embed: https://dublin.globalappsec.org/trainers/#trainer006
+  url: https://dublin.globalappsec.org/
+  by: Josh Grossman
+  info:
+
+- event: Down the Security Rabbithole Podcast (DtSR)
+  year: 2023
+  date: January 17th
+  title: Episode 534 - The AppSec is Still a Mess
+  img: assets\img\DTSR podcast.jpg
+  embed: https://dtsr.buzzsprout.com/2153215/12448659-dtsr-episode-534-the-appsec-is-still-a-mess
+  url: https://open.spotify.com/show/704YJYf1xTX35gl8s5gzxk
+  by: Josh Grossman
+  info:
+
+- event: OWASP Israel meetup
+  year: 2023
+  date: January 10th
+  title: Homemade SAST – Using Semgrep Rules for Security Code Scanning
+  youtube: https://youtu.be/r8NS67sn8Ho
+  embed: https://www.youtube-nocookie.com/embed/r8NS67sn8Ho
+  url: https://www.meetup.com/owasp-israel/events/290271835/
+  by: Michal Kamensky
+  info:
+
+- event: Global AppSec 2022 San Francisco
+  year: 2022
+  date: November 18th
+  title: The Rise of the Security Verification Standard
+  img: assets\img\OWASP global 2022 San Francisco.jpg
+  embed: https://owasp2022globalappsecsf.sched.com/speaker/josh1252
+  url: https://owasp2022globalappsecsf.sched.com/event/1BS2H
+  by: Josh Grossman
+  info:
+
+- event: Global AppSec 2022 San Francisco
+  year: 2022
+  date: November 15-16th
+  title: Building a High-Value AppSec Scanning Programme - Training
+  img: assets\img\OWASP global 2022 San Francisco.jpg
+  embed: https://owasp2022globalappsecsf.sched.com/speaker/josh1252
+  url: https://owasp2022globalappsecsf.sched.com/event/1BRnr/2-day-training-building-a-high-value-appsec-scanning-programme
+  by: Josh Grossman
+  info:
+
+- event: Keynote at BSides Tel Aviv 2022
   year: 2022
   date: June 30th
   title: KEYNOTE&#58; The Threats to Our Community
@@ -46,22 +215,13 @@
   url: https://www.securityjourney.com/podcast-episode/josh-grossman-building-a-high-value-appsec-scanning-program
   by: Josh Grossman
   info:
-  
+
 - event: OWASP Morocco
   year: 2022
   date: April 12th
-  title: Proactively Building Secure Software
-  youtube: https://youtu.be/ctgH7umEtxg
-  embed: https://www.youtube-nocookie.com/embed/ctgH7umEtxg
-  url: https://www.youtube.com/watch?v=ctgH7umEtxg
-
-- event: DevSec For Scale Podcast
-  year: 2022
-  date: April 12th
-  title: Proactively Building Secure Software
-  youtube: https://youtu.be/ctgH7umEtxg
-  embed: https://www.youtube-nocookie.com/embed/ctgH7umEtxg
-  url: https://www.youtube.com/watch?v=ctgH7umEtxg
+  title: Introduction to the ASVS
+  img: assets\img\owaspmorocco.png
+  url: https://www.meetup.com/Morocco-OWASP-Meetup-Group/events/284512526/
   by: Josh Grossman
   info:
 
@@ -174,7 +334,7 @@
 - event: O'Reilly Software Architecture Conference 2019
   year: 2019
   date: November 6th
-  title: Secure by Design&#58; Value-Driven Threat Modeling
+  title: Secure by design&#58; Value-Driven Threat Modeling
   img: assets\img\oreily2019.png
   url: https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050728/video328564.html
   by: Avi Douglen
@@ -250,7 +410,7 @@
   by: Avi Douglen
   info:
   
-- event: OWASP AppSec Israel
+- event: OWASP AppSec Israel 2017
   year: 2017
   date: October 28th
   title: How to get the best AppSec test of your life
@@ -260,14 +420,14 @@
   by: Josh Grossman
   info: 
   
-- event: OWASP AppSec Israel
+- event: OWASP AppSec Israel 2017
   year: 2017
   date: October 28th
   title: Conference Opening Address
   youtube: https://youtu.be/Moqawdvrnig
   embed: https://www.youtube-nocookie.com/embed/Moqawdvrnig
   url: https://owasp.org/www-chapter-israel/
-  by: Avi Douglen and Tiffany Long
+  by: Avi Douglen
   info:
    
 - event: OWASP Göteborg
@@ -280,7 +440,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP AppSec Israel
+- event: OWASP AppSec Israel 2016
   year: 2016
   date: November 4th
   title: Opening Words
@@ -290,7 +450,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP AppSec Israel
+- event: OWASP AppSec Israel 2015
   year: 2015
   date: November 27th
   title: Opening Words (Mostly Hebrew)
@@ -300,7 +460,7 @@
   by: Avi Douglen
   info:
    
-- event: OWASP AppSec Israel
+- event: OWASP Appsec Israel 2014
   year: 2014
   date: October 13th
   title: Passwords, Rehashed All Over Again
