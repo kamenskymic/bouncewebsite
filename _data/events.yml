@@ -237,6 +237,15 @@
   url: https://www.securityjourney.com/podcast-episode/josh-grossman-building-a-high-value-appsec-scanning-program
   by: Josh Grossman
   info:
+  
+
+- event: OWASP Morocco
+  year: 2022
+  date: April 12th
+  title: Proactively Building Secure Software
+  youtube: https://youtu.be/ctgH7umEtxg
+  embed: https://www.youtube-nocookie.com/embed/ctgH7umEtxg
+  url: https://www.youtube.com/watch?v=ctgH7umEtxg
 
 - event: OWASP Morocco
   year: 2022

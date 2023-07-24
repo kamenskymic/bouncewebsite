@@ -1,0 +1,55 @@
+- name: Avi Douglen
+  title: CEO
+  about: |
+    AviD is a security architect and software developer, leading development teams in building secure products for over 20 years. As a systems developer and security consultant, over the years Avi has amassed much technical knowledge and understanding of the enterprise security needs at the business level.
+    AviD currently serves on the OWASP Global Board of Directors, and leads the Israel chapter. He is the founder and leader of the the popular AppSecIL security conference, the OWASP Threat Modeling Project, and co-authored the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/). He is a community moderator on [Security StackExchange](https://security.StackExchange.com/), and a frequent speaker at industry conferences, recent ones can be seen [here](events.md).
+  img: assets\img\AviD 1.png
+  hover:
+  linkedin: https://www.linkedin.com/in/avidouglen/
+  twitter: https://twitter.com/sec_tigger
+
+- name: Maya Douglen
+  title: COO
+  about: Maya is the COO of Bounce Security and has been part of the team since it was founded in 2017. She runs the day to day operations behind the scenes, and likes to keep the bouncing at Bounce. Maya's favorite part of the job is meeting new people, keeping our clients happy and organizing fun original get togethers for the remote staff.
+  img: assets\img\MayaD 1.png
+  hover:
+  linkedin:
+  twitter:
+
+- name: Josh Grossman
+  title: CTO
+  about: |
+    Josh has worked as a consultant in IT/Application Security and Risk for 15 years now as well as a Software Developer. In that time he has seen the good, the bad and the stuff which is sadly/luckily still covered by an NDA. 
+    He previously spent time acting as a consultant and team leader for various security consultancies including AppSec Labs, Comsec Global and KPMG Somekh Chaikin where his speciality has been helping organisations improve and get better value from their Secure Development processes and providing specialist Application Security advice. He also has experience with application penetration testing, cloud security and evaluation and implementation of software security tools. 
+    In his spare time he co-leads the OWASP Application Security Verification Standard project and is on the OWASP Israel chapter board.
+  img: assets\img\Josh 1.png
+  hover:
+  linkedin: https://www.linkedin.com/in/joshcgrossman/
+  twitter: https://twitter.com/joshcgrossman
+
+- name: Emette Cohen Douglen
+  title: Junior Security Analyst
+  about: Emette has a P.E. Degree in Electronic Engineering, Majoring in Computers. She has studied various Computer Science courses at the Open University, and recently opened a boutique Bridal Salon which includes gowns she designs, wishing to combine the two worlds in the future. Emette loves to learn and understand how things work behind the scenes.
+  img: assets\img\EmetteD 1.png
+  hover:
+  linkedin: https://www.linkedin.com/in/emette-a-douglen-b0b78a1a8
+  twitter:
+
+- name: Michal Kamensky
+  title: Junior Security Analyst
+  about: Michal is a security researcher at Bounce Security- where she works on projects to help clients build software securely from the start. She particularly enjoys diving into a new domain and learning it inside out as well as sharing her knowledge with the community. In her spare time, she is a student of computer science and math, volunteers at the Hackeriot initiative and she also enjoys playing chess, following artistic and rhythmic gymnastics and is the lucky human of a ginger tabby cat named Unix.
+  img: assets\img\MichalK 1.png
+  hover:
+  linkedin: https://www.linkedin.com/in/michal-kamensky-a65804247
+  twitter:
+
+- name: Bounce Security
+  title: About
+  about: |
+    Bounce Security was founded in 2017 by Avi Douglen on the security and consulting aspect, alongside Maya on the organizational side. Over time, the team grew and now includes Josh as CTO, and Emette and Michal who are Junior Analysts. 
+    The company makes sure to have a warm and caring environment, whilst staying professional. Bounce Security consults on software security to development teams of all sizes, working with them to integrate security practices into their process. We've worked with some of the biggest organizations on their application security, as well as small startups. We prefer to work directly with development teams, often providing training on secure coding and other security topics. Software security, development processes, identity architecture, and access management are our specialties. 
+    We bring this technical expertise to your table and merge it with a business perspective to ensure you get the maximum bang for your security buck. 
+  img: assets\img\Bounce Logo.png
+  hover:
+  linkedin: https://www.linkedin.com/company/bounce-security/
+  twitter:
